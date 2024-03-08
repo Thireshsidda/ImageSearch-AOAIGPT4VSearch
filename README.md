@@ -11,12 +11,12 @@
 
 ### In order to run your application, you should have the following credentials of Azure OpenAI and Azure Cognitive Search in your ".env" file.
 #### Azure OpenAI
-api_base = '' 
-deployment_name = ''
-API_KEY = ''
-base_url = f"{api_base}openai/deployments/{deployment_name}" 
+    api_base = '' 
+    deployment_name = ''
+    API_KEY = ''
+    base_url = f"{api_base}openai/deployments/{deployment_name}" 
 
 
 #### Azure Cognitive Search
-cs_key = os.getenv("COG_SEARCH_ADMIN_KEY")
-cs_endpoint = os.getenv("COG_SEARCH_ENDPOINT")
+    cs_key = os.getenv("COG_SEARCH_ADMIN_KEY")
+    cs_endpoint = os.getenv("COG_SEARCH_ENDPOINT")
